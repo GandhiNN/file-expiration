@@ -1,7 +1,7 @@
 # File Expiration
 Accepts a configuration file written in JSON format as expiration parameters.  
   
-Available params
+Available params:
 * name
 * path_to_dir
 * retention hour
@@ -11,3 +11,7 @@ Available params
   
 **Automate using cronjob**  
 `0 * * * * /usr/bin/timeout 300 /bin/expire.py --config /bin/expire.json`
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
