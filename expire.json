@@ -1,0 +1,38 @@
+[
+    {
+        "name": "PCAP Dump Files",
+        "path": "/data/pcap/",
+        "retention_hour": "720"
+    },
+    {
+        "name": "Old Processed Captures",
+        "path": "/data/pcap/old/",
+        "retention_hour": "168"
+    },
+    {
+        "name": "Old Raw Captures ",
+        "path": "/data/pcap/raw/",
+        "retention_hour": "168"
+    },
+    {
+        "name": "VSGBTR05 EDR",
+        "path": "/data/edrbackup/SGSNMME/VSGBTR05/",
+        "retention_hour": "72"
+    },
+    {
+        "name": "VSGBTR06 EDR",
+        "path": "/data/edrbackup/SGSNMME/VSGBTR06/",
+        "retention_hour": "72"
+    },
+    {
+        "name": "VSGCBT04 EDR",
+        "path": "/data/edrbackup/SGSNMME/VSGCBT04/",
+        "retention_hour": "72"
+    },
+    {
+        "name": "VSGCBT05 EDR",
+        "path": "/data/edrbackup/SGSNMME/VSGCBT05/",
+        "retention_hour": "72"
+    }
+]
+
